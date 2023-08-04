@@ -1,0 +1,90 @@
+
+
+.hero {
+background-image: url("C:/Users/rosem/OneDrive/Desktop/Michelle/1MCA/WSD_MCA/Week2/back2.avif");    
+   background-size: cover;
+    position:relative;
+}
+img {
+    border-radius: 80%;
+    width: 200px;
+    height: 200px;
+    margin-left: 2%;
+    margin-right: auto;
+    margin-top: 20px;
+}
+
+.navbar .name{
+    font-family:'Times New Roman', Times, serif;
+    color: black;
+    font-size: 20px;
+}    
+
+.name {
+    text-align: center;
+    color: white;
+    font-family:'Times New Roman', Times, serif;
+    margin-top: 2%;
+    display: flexbox ;
+    display: flex;
+    margin-left: 50px;
+    text-align: center;
+}
+
+.a1 {
+    background-repeat: no-repeat;
+    background-size:cover ;
+    margin-left: 0%;
+    margin-top: 0%;
+
+}
+.navbar {
+    display: flex;
+    align-items: center;
+    padding: 15px;
+    height: 30px;
+    background-color: rgba(255, 252, 252, 0.836);
+   }
+    
+nav {
+    flex: 1;
+    text-align: right;
+    color: rgba(0, 0, 0, 0.301);
+}
+
+nav ul{
+    display: inline-block;
+    list-style-type: none;
+}
+
+nav ul li{
+    display: inline-block;
+    margin-right: 10px;
+    color: black;
+}
+
+.head {
+    background-color: rgba(10, 19, 53, 0.488);
+    
+    color: rgb(235, 231, 246);
+    text-indent: 3%;
+}
+.About {
+    color: rgb(4, 4, 4);
+    text-align: justify;
+}
+
+.text {
+    color: rgb(4, 4, 4);
+    text-align: justify;
+}
+
+hr {
+    height: 10%;
+    width: 100%;
+}
+
+.dates {
+    text-align: right;
+}
+
