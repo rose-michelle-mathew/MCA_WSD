@@ -1,0 +1,47 @@
+
+
+.a1 {
+background-image: url("C:/Users/rosem/OneDrive/Desktop/Michelle/1MCA/WSD_MCA/Week2/back2.avif");    
+   background-size: cover;
+    position:relative;
+}
+img {
+    border-radius: 80%;
+    width: 200px;
+    height: 200px;
+    margin-left: 2%;
+    margin-right: auto;
+    margin-top: 20px;
+} 
+
+.name {
+    font-family:'Times New Roman', Times, serif;
+    color: black;
+    font-size: 20px;
+    margin-top: 2%;
+    margin-left: 50px;
+}
+
+
+.head {
+    background-color: rgba(10, 19, 53, 0.488);
+    
+    color: rgb(235, 231, 246);
+    text-indent: 3%;
+}
+.About {
+    color: rgb(4, 4, 4);
+    text-align: justify;
+}
+
+.text {
+    color: rgb(4, 4, 4);
+    text-align: justify;
+}
+
+hr {
+    height: 10%;
+    width: 100%;
+}
+
+

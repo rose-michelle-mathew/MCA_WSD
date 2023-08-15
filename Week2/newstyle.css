@@ -1,0 +1,42 @@
+.carousel-item{
+    height: 800px;
+}
+.flex-box {
+    display: flex;
+    flex-wrap: wrap;
+    flex-basis: 10px;
+
+}
+
+.myh1{
+    color: black;
+    text-align: center;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: large;
+    text-shadow: 2px 5px 5px #000000;
+}
+
+.flex-box img {
+    padding: 30px;
+    margin-left: 80px;
+   box-shadow: 22px 25px 10px  #0000006b;
+}
+
+.para{
+    background-image: url("projects.avif");
+    height: 600px;
+    background-size: cover; 
+    background-attachment: fixed;
+    background-position: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;  
+}
+
+.text-box{
+    height:100px;
+    padding: 30px; 
+    background-color: #0000007d;
+    color: aliceblue;
+    font-size: 30px;
+}
