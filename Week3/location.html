@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title></title>
+    <meta charset="utf-8" />
+</head>
+<body style="background-color: black;">
+    <div class="heading" style="text-align: center; color: azure;">
+        <h1>Geolocation using Bing API</h1>
+    </div>
+    <!-- <div style="background-color: rgba(0, 0, 0, 0.219); height: 700px;"> -->
+        <div id="myMap" style="width: 900px; height: 600px; margin-left: 21% ; margin-top: 30px;"></div>
+    
+    <button id="showLocationButton" style="display: flex; flex-basis: content; flex-wrap: wrap; margin-top: 1%; margin-left: 45%;">Show My Location</button>
+</div>
+    <script type='text/javascript'>
+        var map; // Define map variable outside the GetMap function
+
+        function GetMap() {
+            map = new Microsoft.Maps.Map('#myMap', {
+                credentials: 'Asgl5rh-ny_9_C-5p8JtJfvNuDym3j8ptCuIU0PQX3OPnAjiajJ6z7JWhQIGCSh_'
+            });
+        }
+
+        // Function to show location on button click
+        function ShowLocation() {
+            navigator.geolocation.getCurrentPosition(function (position) {
+                var loc = new Microsoft.Maps.Location(
+                    position.coords.latitude,
+                    position.coords.longitude);
+
+                // Clear any previous pushpins
+                map.entities.clear();
+
+                // Add a pushpin at the user's location
+                var pin = new Microsoft.Maps.Pushpin(loc);
+                map.entities.push(pin);
+
+                // Center the map on the user's location
+                map.setView({ center: loc, zoom: 17 });
+            });
+        }
+
+        // Attach the ShowLocation function to the button click event
+        document.getElementById('showLocationButton').addEventListener('click', ShowLocation);
+    </script>
+    <script type='text/javascript' src='http://www.bing.com/api/maps/mapcontrol?callback=GetMap' async defer></script>
+</body>
+</html>
