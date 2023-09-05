@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- First Name
+Last Name
+Date of Birth (in the format YYYY-MM-DD)
+Gender (Male/Female)
+Employment Information:
+Position
+Salary
+
+Contact Information:
+Email
+Phone Number -->
+<employeeDetails>
+	<employee id="12345">
+		<title lang="en">My Employee</title>
+		<Personal>
+			<fname> Rose Michelle </fname>
+			<lname> Mathew</lname>
+			<DOB>24-07-2002 </DOB>
+			<Gender> Female </Gender>
+		</Personal>
+		<Employment>
+			<Position> Senior Manager </Position>
+			<Salary>76000</Salary>
+		</Employment>
+		<contact>
+			<Email>michellemathew024@gmail.com</Email>
+			<Phone>7406216657</Phone>
+		</contact>
+	</employee>
+	<employee id="1290345">
+		<title lang="en">My Employee</title>
+		<Personal>
+			<fname> Jaince </fname>
+			<lname> Mathew</lname>
+			<DOB>20-08-1999 </DOB>
+			<Gender> Female </Gender>
+		</Personal>
+		<Employment>
+			<Position> Senior Release Lead </Position>
+			<Salary>7000000</Salary>
+		</Employment>
+		<contact>
+			<Email>michellemathew029@gmail.com</Email>
+			<Phone>7406909657</Phone>
+		</contact>
+	</employee>
+	<employee id="980079">
+		<title lang="en">My Employee</title>
+		<Personal>
+			<fname>George</fname>
+			<lname> Mathew</lname>
+			<DOB>24-09-2000 </DOB>
+			<Gender> Male </Gender>
+		</Personal>
+		<Employment>
+			<Position> Senior Employee</Position>
+			<Salary>76000</Salary>
+		</Employment>
+		<contact>
+			<Email>michellemathew022@gmail.com</Email>
+			<Phone>7406278657</Phone>
+		</contact>
+	</employee>
+</employeeDetails>
